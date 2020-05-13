@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Attribute</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Attribute</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>h</td>
+                <td>align , style</td>
+                <td>align : จัดตำแหน่งซ้ายกลางขวา <br> style : การใช้ CSS แบบ Inline</td>
+            </tr>
+            <tr>
+                <td>p</td>
+                <td>title , style</td>
+                <td>title : เหมือนเป็นการระบุข้อมูลเพิ่มเติม <br> style : การใช้ CSS แบบ Inline</td>
+            </tr>
+            <tr>
+                <td>div</td>
+                <td>class , id</td>
+                <td>class : คือการดึง class ที่เราสร้างไว้จาก CSS มาใช้เพื่อปรับรูปแบบให้สวยงาม <br> id : จะดึง ID
+                    มาใช้โดยจะไม่มีการซ้ำกัน</td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td>src , alt , width , height</td>
+                <td>src : ระบุที่อยู่ของไฟล์ <br> alt : เหมือนเป็นการระบุเพิ่มเติมของรูปภาพ <br> width : กำหนดความกว้าง
+                    <br> height : กำหนดความสูง</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>href , target </td>
+                <td>href : เป็นการระบุ URL <br> target : ระบุตำแหน่งที่จะเปิด เอกสาร</td>
+            </tr>
+            <tr>
+                <td>ul</td>
+                <td>type</td>
+                <td>ระบุประเภท</td>
+            </tr>
+            <tr>
+                <td>ol</td>
+                <td> reversed , start , type</td>
+                <td>reversed : เป็นการสลับทาง <br> start : ตั้งค่าตัวเริ่มเต้น <br> type : ระบุประเภท</td>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>align , bgcolor , width</td>
+                <td>align : จัดตำแหน่งบนซ้ายกลางขวา <br> bgcolor : การปรับสีของตาราง <br> width : ปรับขนาด</td>
+            </tr>
+            <tr>
+                <td>form</td>
+                <td>id , method</td>
+                <td>id : จะดึง ID มาใช้โดยจะไม่มีการซ้ำกัน <br> method : ระบุวิธีการส่งข้อมูล</td>
+            </tr>
+            <tr>
+                <td>button</td>
+                <td>name</td>
+                <td>การตั้งชื่อให้ Element</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1 style="text-align: center;">Differentiation Tag</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>ความเหมือน</th>
+                <th>ความแตกต่าง</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>hr & br</td>
+                <td>ขึ้นบรรทัดใหม่เหมือนกัน</td>
+                <td>hr จะเป็นเส้นขีด br จะไม่มีเส้นขีด</td>
+            </tr>
+            <tr>
+                <td>ul & ol</td>
+                <td>แสดงข้อมูลแบบลิสต์</td>
+                <td>ul เป็นการลิสต์แบบไม่มีลำดับ โดยใช้เครื่องหมาย Bullet list กำกับ <br> ol จะเป็นการลิสต์แบบเป็นลำดับ
+                    โดยใช้ตัวเลขกำกับ</td>
+            </tr>
+            <tr>
+                <td>select & checkbox & radio button</td>
+                <td>เป็นการเลือกเหมือนกัน</td>
+                <td>select จะเป็นการเลือกข้อมูลแบบ Dropdown ส่วน checkbox เป็นการเลือกข้อมูลโดยการติ๊กถูก และ radio
+                    button เป็นการเลือกข้อมูลโดยการคลิกที่วงกลมและเป็นการเลือกอย่างใดอย่างนึง</td>
+            </tr>
+            <tr>
+                <td>div & span</td>
+                <td>จัดกลุ่มข้อมูล</td>
+                <td>div จะมี display : block เป็นค่า Default ทำให้เราสร้าง div หลายๆอันจะอยู่ด้านล่างเรียงลงไปแต่ span
+                    จะเป็นแบบ inline ทำให้จะอยู่บรรทัดเดียวกัน</td>
+            </tr>
+            <tr>
+                <td>script & style</td>
+                <td>เป็นการดึงภาษาอื่นๆเข้ามาใช้</td>
+                <td>script เป็นการดึง Javascipt มาใช้ ส่วน style เป็นการดึง CSS เข้ามาใช้</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 style="text-align: center;">Input Type</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>ลักษณะ</th>
+                <th>ตัวอย่าง</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>button</td>
+                <td>ปุ่มกด</td>
+                <td><button>ปุ่มกด</button></td>
+            </tr>
+            <tr>
+                <td>checkbox</td>
+                <td>ช่องติ๊กถูกเอาไว้เลือก</td>
+                <td>สีที่ชอบ <input type="checkbox"> แดง <input type="checkbox"> ชมพู <input type="checkbox"> เหลือง
+                </td>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td>เลือกสี</td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td>date</td>
+                <td>เลือกวัน</td>
+                <td><input type="date" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>datetime-local</td>
+                <td>เลือกวัน เวลา</td>
+                <td><input type="datetime-local" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td>อีเมลล์</td>
+                <td><input type="email" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>file</td>
+                <td>ไฟล์</td>
+                <td><input type="file" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>hidden</td>
+                <td>ซ่อน</td>
+                <td><input type="hidden" name=""></td>
+            </tr>
+            <tr>
+                <td>image</td>
+                <td>รูปภาพ</td>
+                <td><input type="image" src="https://semantic-ui.com/images/wireframe/image.png" width="2%" alt="">
+                    เลือก</td>
+            </tr>
+            <tr>
+                <td>month</td>
+                <td>เดือน</td>
+                <td><input type="month" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>number</td>
+                <td>เฉพาะตัวเลข</td>
+                <td><input type="number" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td>รหัสผ่านแสดงผลเป็น *</td>
+                <td><input type="password" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>radio</td>
+                <td>การเลือกข้อมูลอย่างใดอย่างนึง</td>
+                <td><input type="radio" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>range</td>
+                <td>การเลือกข้อมูลแบบเป็น bar</td>
+                <td><input type="range" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>reset</td>
+                <td>ปุ่ม Reset</td>
+                <td><input type="reset" value="Reset"></td>
+            </tr>
+            <tr>
+                <td>search</td>
+                <td>ค้นหา</td>
+                <td><input type="search" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>submit</td>
+                <td>ส่งข้อมูล</td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+            <tr>
+                <td>tel</td>
+                <td>เบอร์โทรศัพท์</td>
+                <td><input type="tel" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>text</td>
+                <td>ข้อมูลตัวอักษรทั่วไป</td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>time</td>
+                <td>เวลา</td>
+                <td><input type="time" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>url</td>
+                <td>ที่อยู่เว็บไซต์</td>
+                <td><input type="url" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>week</td>
+                <td>เลือกข้อมูลเป็นสัปดาห์</td>
+                <td><input type="week" name="" id=""></td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 style="text-align: center;">Lab เสริม</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>คำอธิบาย</th>
+                <th>ตัวอย่าง</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>strong</td>
+                <td>ตัวอักษรมีความเข้มขึ้น</td>
+                <td><strong>ตัวอย่าง</strong></td>
+            </tr>
+            <tr>
+                <td>label</td>
+                <td>กำหนดชื่อให้กับช่องรับข้อมูล</td>
+                <td><label for="">ตัวอย่าง</label></td>
+            </tr>
+            <tr>
+                <td>del</td>
+                <td>มีชีดฆ่าตัวอักษร</td>
+                <td><del>ตัวอย่าง</del></td>
+            </tr>
+            <tr>
+                <td>b</td>
+                <td>ตัวหนา</td>
+                <td><b>ตัวหนา</b></td>
+            </tr>
+            <tr>
+                <td>em</td>
+                <td>ข้อความเป็น วลี หรือ คำพูด</td>
+                <td><em>ตัวอย่าง</em></td>
+            </tr>
+            <tr>
+                <td>mark</td>
+                <td>ไฮไลท์ข้อความ</td>
+                <td><mark>ตัวอย่าง</mark></td>
+            </tr>
+            <tr>
+                <td>i</td>
+                <td>ตัวอักษรเอียง</td>
+                <td><i>ตัวอย่าง</i></td>
+            </tr>
+            <tr>
+                <td>sub</td>
+                <td>ให้ข้อความห้อยลง</td>
+                <td>ตัวอย่าง<sub>123</sub></td>
+            </tr>
+            <tr>
+                <td>sup</td>
+                <td>ให้ข้อความยกขึ้น</td>
+                <td>ตัวอย่าง<sup>123</sup></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
