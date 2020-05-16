@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* news zone */
+
+.new {
+    margin: 5px 50px 50px 50px;
+    display: grid;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.new-data {
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: repeat(3, 100px);
+}
+
+.main {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.new-data-items {
+    margin: 5px;
+    background-color: grey;
+}
+
+.other-news {
+    margin: 5px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 300px;
+}
+
+/* Shopping zone */
+
+.shop {
+    margin: 0 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.review {
+    background-color: grey;
+    width: 100%;
+    height: 200px;
+}
+
+.zone {
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: repeat(6, 170px);
+}
+
+.items {
+    color: black;
+    background-color: azure;
+    margin: 5px;
+    height: 150px;
+}
+
+/* Thread */
+
+.pantip {
+    text-align: center;
+    color: white;
+    margin: 5px;
+    background-color: #3c3963;
+    padding: 5px;
+}
+
+.top {
+    width: 80%;
+    height: 150px;
+    margin: 10px auto;
+    background-color: slateblue;
+}
+
+.top-grid {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5px auto;
+    width: 80%;
+    height: 200px;
+    background-color: slateblue;
+}
+
+.items-topic {
+    padding: 10px;
+    margin: 5px;
+    background-color: slategray;
+}
+
+.main-side {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.left-zone {
+    background-color: slategray;
+    margin: 5px;
+    width: 80%;
+    height: 300px;
+}
+
+.right-zone {
+    margin: 5px;
+    width: 20%;
+}
+
+.popular-topic {
+    background-color: steelblue;
+    margin: 5px;
+    height: 145px;
+}
+
+.other-topic {
+    background-color: steelblue;
+    margin: 5px;
+    height: 145px;
+}
